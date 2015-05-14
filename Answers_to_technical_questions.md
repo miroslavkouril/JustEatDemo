@@ -13,11 +13,17 @@ I spend aproximately 12 hours on the coding test. Here is the list of tasks whic
  - Allow user to sort the list of displayed restaurants
 
 #### 2. What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.
-My favourite feature in C# 6 are *getter-only auto-properties*, so I can use this: 
+My favourite feature in C# 6 is *null-conditional operator (Elvis operator)*, here is small example: 
 ```c#
-public int Width { get; }
+locationFailedEvent?.Invoke();
+
+// equals
+
+if (locationFailedEvent != null)
+{
+    locationFailedEvent();
+}
 ```
-for properties which are initialized directly or inside constructor only.
 
 #### 3. How would you track down a performance issue in an application? Have you ever had to do this?
 I would use **Xamarin Profiler**. They anounced this tool during last Xamarin Evolve (2014) conference. I have tried preview version right after they anounced it, but haven’t had to use it for commertial app yet.

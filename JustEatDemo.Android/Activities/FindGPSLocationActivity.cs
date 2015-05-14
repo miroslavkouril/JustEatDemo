@@ -54,10 +54,7 @@ namespace JustEatDemo
 		{
 			StopLocationService();
 
-			if (locationAvailableEvent != null)
-			{
-				locationAvailableEvent(this, new GPSExactLocation(location.Latitude, location.Longitude));
-			}
+			locationAvailableEvent?.Invoke(this, new GPSExactLocation(location.Latitude, location.Longitude));
 		}
 
 		public void OnProviderDisabled(string provider)
@@ -82,10 +79,7 @@ namespace JustEatDemo
 		{
 			StopLocationService();
 
-			if (locationFailedEvent != null)
-			{
-				locationFailedEvent();
-			}
+			locationFailedEvent?.Invoke();
 		}
 	}
 }

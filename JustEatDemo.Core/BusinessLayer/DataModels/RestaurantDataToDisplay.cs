@@ -4,14 +4,6 @@ namespace JustEatDemo.Core.BL.DataModels
 {
 	public class RestaurantDataToDisplay
 	{
-		public int Id;
-		public string Name;
-		public double DefaultDisplayRank;
-		public double RatingStars;
-		public int NumberOfRatings;
-		public string CuisineTypes;
-		public string LogoPath;
-
 		public RestaurantDataToDisplay(int id, string name, double defaultDisplayRank, double ratingStars, int numberOfRatings)
 		{
 			this.Id = id;
@@ -20,6 +12,14 @@ namespace JustEatDemo.Core.BL.DataModels
 			this.RatingStars = ratingStars;
 			this.NumberOfRatings = numberOfRatings;
 		}
+
+		public int Id { get; private set; }
+		public string Name { get; private set; }
+		public double DefaultDisplayRank { get; private set; }
+		public double RatingStars { get; private set; }
+		public int NumberOfRatings { get; private set; }
+		public string CuisineTypes  { get; set; }
+		public string LogoPath  { get; set; }
 	}
 }
 
