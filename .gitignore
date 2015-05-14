@@ -30,3 +30,4 @@ JustEatDemo.Core/obj/
 JustEatDemo.UITests/obj/
 JustEatDemo.Core.Tests/obj/
 JustEatDemo.Android/obj/
+*.userprefs
