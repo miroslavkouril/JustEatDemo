@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+	<dimen name="insert_location_objects_width">300dp</dimen>
+	<dimen name="insert_location_objects_height">45dp</dimen>
+
+	<dimen name="flat_action_button_size">@dimen/insert_location_objects_height</dimen>
+	<dimen name="flat_action_button_corner_radius">3dp</dimen>
+
+	<dimen name="edit_text_cursor_size">1dp</dimen>
+
+	<integer name="rating_bar_max_rating">6</integer>
+	<dimen name="rating_bar_star_size">18dp</dimen>
+	<dimen name="rating_bar_space_between_stars">2dp</dimen>
+	<!-- rating_bar_width = (rating_bar_star_size * rating_bar_max_rating) + (rating_bar_space_between_stars * (rating_bar_max_rating - 1)) -->
+	<dimen name="rating_bar_width">118dp</dimen>
+
+	<dimen name="restaurant_logo_default_size">100px</dimen>
+
+	<dimen name="default_margin">16dp</dimen>
+</resources>

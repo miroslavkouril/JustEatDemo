@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/subtitle"
+        android:text="@string/insert_location_subtitle_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="@dimen/insert_location_objects_width"
+        android:layout_height="wrap_content"
+        android:textSize="34dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textColor="#616161"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="25dp" />
+    <RelativeLayout
+        android:id="@+id/insert_location"
+        android:layout_width="@dimen/insert_location_objects_width"
+        android:layout_height="@dimen/insert_location_objects_height"
+        android:layout_below="@id/subtitle"
+        android:layout_centerHorizontal="true"
+        android:elevation="5dp"
+        android:background="@drawable/insert_location_area_background">
+        <ImageButton
+            style="@style/InserPostcodeActionButton"
+            android:id="@+id/postcode_from_gps"
+            android:src="@android:drawable/ic_menu_mylocation"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+        <ImageButton
+            style="@style/InserPostcodeActionButton"
+            android:id="@+id/delete_postcode"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/postcode_from_gps" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flat_action_button_size"
+            android:id="@+id/postcode"
+            android:hint="@string/insert_location_edit_text_hint"
+            android:layout_toLeftOf="@id/delete_postcode"
+            android:layout_alignParentLeft="true"
+            android:textCursorDrawable="@drawable/edit_text_cursor"
+            android:background="@android:color/transparent"
+            android:singleLine="true"
+            android:inputType="text"
+            android:maxLength="20"
+            android:layout_marginLeft="16dp"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <Button
+        android:text="@string/insert_location_find_takeaways"
+        android:layout_width="@dimen/insert_location_objects_width"
+        android:layout_height="wrap_content"
+        android:id="@+id/find_takeaways"
+        android:layout_below="@id/insert_location"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/insert_location_find_takeaways"
+        android:elevation="5dp" />
+</RelativeLayout>

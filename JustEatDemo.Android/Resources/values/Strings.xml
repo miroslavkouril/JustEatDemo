@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="insert_location_title">JustEat - Coding Test</string>
+	<string name="insert_location_subtitle_text">Restaurants in area</string>
+	<string name="insert_location_edit_text_hint">Your postcode</string>
+	<string name="insert_location_find_takeaways">Find takeaways</string>
+
+	<string name="insert_location_warning_empty">Insert postcode to continue</string>
+	<string name="insert_location_warning_invalid">Inserted postcode is invalid</string>
+
+	<string name="dialog_data_download_failed_message">We were unable to find restaurants in this area. Please check inserted postcode, your internet connection and try again</string>
+	<string name="dialog_data_download_failed_positive_text">Try Again</string>
+	<string name="dialog_data_download_failed_negative_text">Cancel</string>
+
+	<string name="dialog_enable_location_message">You need to have you location service active to use this function</string>
+	<string name="dialog_enable_location_positive_text">Settings</string>
+	<string name="dialog_enable_location_negative_text">Cancel</string>
+</resources>

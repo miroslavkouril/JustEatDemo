@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{499CF7A7-73B0-4598-8552-674B40FD24AC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>JustEatDemo</RootNamespace>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <AssemblyName>JustEatDemo</AssemblyName>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Activities\SplashScreenActivity.cs" />
+    <Compile Include="Activities\InsertLocationActivity.cs" />
+    <Compile Include="Fragments\InsertLocationFragment.cs" />
+    <Compile Include="AndroidSpecificImplementations\GPSService.cs" />
+    <Compile Include="Activities\FindGPSLocationActivity.cs" />
+    <Compile Include="Fragments\InsertLocationBaseFragment.cs" />
+    <Compile Include="Activities\ListOfRestaurantsActivity.cs" />
+    <Compile Include="Fragments\ListOfRestaurantsFragment.cs" />
+    <Compile Include="AndroidSpecificImplementations\FileHelper.cs" />
+    <Compile Include="ListAdapters\RestaurantsInAreaAdapter.cs" />
+    <Compile Include="CustomViews\DisplayRating.cs" />
+    <Compile Include="Fragments\DownloadProgressFragment.cs" />
+    <Compile Include="Fragments\IDownloadProgressActions.cs" />
+    <Compile Include="AsyncTasks\DowloadDataAsyncTask.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Assets\AboutAssets.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\values\Colors.xml" />
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\values\Styles.xml" />
+    <AndroidResource Include="Resources\layout\InsertLocation.axml" />
+    <AndroidResource Include="Resources\values\Dimensions.xml" />
+    <AndroidResource Include="Resources\drawable\flat_action_button_normal.xml" />
+    <AndroidResource Include="Resources\drawable\flat_action_button_selector.xml" />
+    <AndroidResource Include="Resources\drawable\edit_text_cursor.xml" />
+    <AndroidResource Include="Resources\anim\rotate.xml" />
+    <AndroidResource Include="Resources\layout\ListOfRestaurants.axml" />
+    <AndroidResource Include="Resources\layout\ListOfRestaurantsListItem.axml" />
+    <AndroidResource Include="Resources\values\Attrs.xml" />
+    <AndroidResource Include="Resources\layout\DialogProgressBarView.axml" />
+    <AndroidResource Include="Resources\drawable\ic_empty_logo.png" />
+    <AndroidResource Include="Resources\drawable\insert_location_area_background.xml" />
+    <AndroidResource Include="Resources\drawable\insert_location_find_takeaways.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_star_empty.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_star_full.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_star_half.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_star_empty.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_star_full.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_star_half.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_star_empty.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_star_full.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_star_half.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_star_empty.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_star_full.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_star_half.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_star_empty.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_star_full.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_star_half.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\JustEatDemo.Core\JustEatDemo.Core.csproj">
+      <Project>{2E2EB05B-45F3-434D-8913-06917BF7631C}</Project>
+      <Name>JustEatDemo.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\mipmap-hdpi\" />
+    <Folder Include="Resources\mipmap-mdpi\" />
+    <Folder Include="Resources\mipmap-xhdpi\" />
+    <Folder Include="Resources\mipmap-xxhdpi\" />
+    <Folder Include="Resources\mipmap-xxxhdpi\" />
+    <Folder Include="Activities\" />
+    <Folder Include="Fragments\" />
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="AndroidSpecificImplementations\" />
+    <Folder Include="Resources\anim\" />
+    <Folder Include="ListAdapters\" />
+    <Folder Include="CustomViews\" />
+    <Folder Include="AsyncTasks\" />
+    <Folder Include="Resources\drawable-hdpi\" />
+    <Folder Include="Resources\drawable-mdpi\" />
+    <Folder Include="Resources\drawable-xhdpi\" />
+    <Folder Include="Resources\drawable-xxhdpi\" />
+    <Folder Include="Resources\drawable-xxxhdpi\" />
+  </ItemGroup>
+</Project>

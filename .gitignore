@@ -25,3 +25,8 @@ proguard/
 
 # Log Files
 *.log
+packages/
+JustEatDemo.Core/obj/
+JustEatDemo.UITests/obj/
+JustEatDemo.Core.Tests/obj/
+JustEatDemo.Android/obj/

@@ -1,0 +1,11 @@
+﻿<Properties StartupItem="JustEatDemo.Core.Tests\JustEatDemo.Core.Tests.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.ZX1C222VR9" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Development\JustEatDemo\JustEatDemo.Android\Fragments\ListOfRestaurantsFragment.cs" line="94" column="10" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.JustEatDemo.Android AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

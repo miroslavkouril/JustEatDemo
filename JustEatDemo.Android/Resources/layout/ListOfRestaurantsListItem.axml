@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/kouril.justeat.demo"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="@dimen/restaurant_logo_default_size"
+        android:layout_height="@dimen/restaurant_logo_default_size"
+        android:id="@+id/logo"
+        android:layout_margin="@dimen/default_margin"
+        android:elevation="5dp"
+        android:background="@drawable/insert_location_area_background" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/default_margin">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxLines="1" />
+        <TextView
+            android:id="@+id/cousine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#bdbdbd"
+            android:ellipsize="end"
+            android:maxLines="1" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <JustEatDemo.DisplayRating
+                android:id="@+id/rating"
+                android:layout_width="@dimen/rating_bar_width"
+                android:layout_height="@dimen/rating_bar_star_size"
+                custom:maxRating="@integer/rating_bar_max_rating"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

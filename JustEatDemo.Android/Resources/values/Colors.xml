@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+	<color name="primary">#cc121c</color>
+	<color name="primary_dark">#A30E16</color>
+	<color name="accent">#FAE7E8</color>
+
+	<color name="flat_action_button_pressed">#66999999</color>
+
+	<color name="raised_button_normal">#ffca28</color>
+	<color name="raised_button_pressed">#ef6c00</color>
+
+	<color name="progress_dialog_background">#AC310B</color>
+</resources>
+

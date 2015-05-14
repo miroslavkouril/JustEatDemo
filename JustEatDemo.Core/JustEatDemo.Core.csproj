@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{2E2EB05B-45F3-434D-8913-06917BF7631C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>JustEatDemo.Core</RootNamespace>
+    <AssemblyName>JustEatDemo.Core</AssemblyName>
+    <TargetFrameworkProfile>Profile7</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BusinessLayer\PostcodeValidator.cs" />
+    <Compile Include="ServiceAssessLayer\IGPSService.cs" />
+    <Compile Include="BusinessLayer\GPSServiceHelper.cs" />
+    <Compile Include="BusinessLayer\DataModels\GPSExactLocation.cs" />
+    <Compile Include="BusinessLayer\RestaurantsInArea.cs" />
+    <Compile Include="ServiceAssessLayer\WebService.cs" />
+    <Compile Include="BusinessLayer\DataModels\ServiceResult.cs" />
+    <Compile Include="BusinessLayer\DataModels\ServiceResultRestaurant.cs" />
+    <Compile Include="BusinessLayer\DataModels\ServiceResultCuisineType.cs" />
+    <Compile Include="BusinessLayer\DataModels\ServiceResultLogo.cs" />
+    <Compile Include="DataAccessLayer\IFileHelper.cs" />
+    <Compile Include="BusinessLayer\DataModels\RestaurantDataToDisplay.cs" />
+    <Compile Include="ServiceAssessLayer\IWebService.cs" />
+    <Compile Include="BusinessLayer\SaveInstanceStateHelper.cs" />
+    <Compile Include="ServiceAssessLayer\IHttpClient.cs" />
+    <Compile Include="ServiceAssessLayer\HttpClientWrapper.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="BusinessLayer\" />
+    <Folder Include="ServiceAssessLayer\" />
+    <Folder Include="BusinessLayer\DataModels\" />
+    <Folder Include="DataAccessLayer\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net45+win8\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net45+win8\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\portable-net45+win8+wpa81\Microsoft.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\portable-net45+win8+wpa81\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\portable-net45+wp80+win8+wpa81+aspnetcore50\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+  </ItemGroup>
+</Project>
