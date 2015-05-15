@@ -1,11 +1,12 @@
 # Technical questions
 
 #### 1. How long did you spend on the coding test? What would you add to your solution if you had more time? If you didn't spend much time on the coding test then use this as an opportunity to explain what you would add.
-I spend aproximately 12 hours on the coding test. Here is the list of tasks which would be improved if works would continue:
+I spent approximately 16 hours on the coding test. Here is the list of things which would be improved if the application was to be published on Play store:
+ - Code refactoring
  - TitleBar design 
  - Postcode input validation and better info about invalid postcode 
- - Better progress animation when GPS is finding my current postcode 
- - Implement GPS service to be used in Core library, now there is hybrid solution 
+ - Better progress animation while GPS is finding my current postcode 
+ - Implement GPS functionality completely in Core library  
  - Improve speed of GPS reaction 
  - Design of the first app screen - bottom part could be used to display some useful info 
  - Optimalise amount of data which are downloaded from web server, download icons of restaurants in separate thread 
@@ -13,7 +14,7 @@ I spend aproximately 12 hours on the coding test. Here is the list of tasks whic
  - Allow user to sort the list of displayed restaurants
 
 #### 2. What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.
-My favourite feature in C# 6 is *null-conditional operator (Elvis operator)*, here is small example: 
+My favourite feature in C# 6 is *null-conditional operator (Elvis operator)*, please see the example below: 
 ```c#
 locationFailedEvent?.Invoke();
 
@@ -26,14 +27,14 @@ if (locationFailedEvent != null)
 ```
 
 #### 3. How would you track down a performance issue in an application? Have you ever had to do this?
-I would use **Xamarin Profiler**. They anounced this tool during last Xamarin Evolve (2014) conference. I have tried preview version right after they anounced it, but haven’t had to use it for commertial app yet.
-Another approach would be to use **Xamarin Insights** reports and collect some important data using Track and TrackTime calls. I am already using Xam. Insight in my apps to get info about crashes and usage of mine apps.
+I would use **Xamarin Profiler**. They introduced this tool during last Xamarin Evolve conference (2014). I tried the preview version after its publishing, but I haven’t had to use it for commercial app yet.
+Another approach would be to use **Xamarin Insights** reports and collect some important data using Track and TrackTime calls. I am already using Xamarin Insight in my apps to get information about crashes and usage of my apps.
 
 #### 4. How would you improve the JUST EAT APIs that you just used?
 
- - Restaurants.Logo -> Now it is list of strings, but I don’t see any advantage of it, I would make that field just string
- - It returns empty list of restaurants when I use invalid postcode, I would prefer to return some indication about this problem to recognise if there are no restaurants in the area or if I used wrong postcode.
- - RatingStars value is in range 0 – 6, I would preffer to use range 0 – 1. What happens with client app when you decide to change number of stars?
+ - Restaurants.Logo -> Now it is list of strings, but I can’t see any advantage of it, I would make that field just string
+ - It returns empty list of restaurants when I use invalid postcode, I would prefer to return some indication about this problem to recognise if there are no restaurants in the area or whether I used wrong postcode.
+ - RatingStars value is in range 0 – 6, I would preffer to use range 0 – 1. What happens to client apps when you decide to change number of stars?
 
 #### 5. Please describe yourself using JSON.
 ```json
