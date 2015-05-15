@@ -15,7 +15,19 @@ I spent approximately 16 hours on the coding test. Here is the list of things wh
  - Allow user to sort the list of displayed restaurants
 
 #### 2. What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.
-My favourite feature in C# 6 is *null-conditional operator (Elvis operator)*, please see the example below: 
+I am not sure if you are asking about Android SDK or C# language, so will (just for sure) provide both answers..
+In Android SDK I like a lot *RippleDrawable*
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/flat_action_button_pressed">
+    <item
+        android:id="@android:id/mask"
+        android:drawable="@drawable/flat_action_button_normal"/>
+</ripple>
+```
+
+In C# 6 it is *null-conditional operator (Elvis operator)* 
 ```c#
 locationFailedEvent?.Invoke();
 
