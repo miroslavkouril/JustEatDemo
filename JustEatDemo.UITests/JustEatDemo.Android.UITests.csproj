@@ -45,9 +45,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Tests.cs" />
-    <Compile Include="Activities\InsetLocationActivityTest.cs" />
-    <Compile Include="Activities\ListOfRestaurantsActivityTest.cs" />
+    <Compile Include="Activities\InsetLocationActivityTestManualInsert.cs" />
+    <Compile Include="Activities\InsetLocationActivityTestGPSLocation.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
