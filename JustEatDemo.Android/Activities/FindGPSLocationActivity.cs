@@ -1,7 +1,7 @@
 ﻿using System;
 using Android.App;
-using Android.OS;
 using Android.Locations;
+using Android.OS;
 using JustEatDemo.Core.BL.DataModels;
 
 namespace JustEatDemo
@@ -54,7 +54,10 @@ namespace JustEatDemo
 		{
 			StopLocationService();
 
-			locationAvailableEvent?.Invoke(this, new GPSExactLocation(location.Latitude, location.Longitude));
+			if (locationFailedEvent != null)
+			{
+				locationAvailableEvent(this, new GPSExactLocation(location.Latitude, location.Longitude));
+			}
 		}
 
 		public void OnProviderDisabled(string provider)
@@ -79,8 +82,10 @@ namespace JustEatDemo
 		{
 			StopLocationService();
 
-			locationFailedEvent?.Invoke();
+			if (locationFailedEvent != null)
+			{
+				locationFailedEvent();
+			}
 		}
 	}
 }
-

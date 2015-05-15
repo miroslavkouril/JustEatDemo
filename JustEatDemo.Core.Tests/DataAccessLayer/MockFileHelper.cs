@@ -1,5 +1,4 @@
-﻿using System;
-using JustEatDemo.Core.DAL;
+﻿using JustEatDemo.Core.DAL;
 
 namespace JustEatDemo.Core.Tests.DAL
 {
@@ -36,4 +35,3 @@ namespace JustEatDemo.Core.Tests.DAL
 		}
 	}
 }
-

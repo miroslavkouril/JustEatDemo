@@ -1,5 +1,4 @@
-﻿using System;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
 namespace JustEatDemo.Core.BL
 {
@@ -22,4 +21,3 @@ namespace JustEatDemo.Core.BL
 		}
 	}
 }
-

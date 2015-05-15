@@ -1,5 +1,4 @@
-﻿using System;
-using JustEatDemo.Core.SAL;
+﻿using JustEatDemo.Core.SAL;
 
 namespace JustEatDemo.Core.Tests.SAL
 {
@@ -43,4 +42,3 @@ namespace JustEatDemo.Core.Tests.SAL
 		}
 	}
 }
-

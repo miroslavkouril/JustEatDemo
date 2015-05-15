@@ -1,6 +1,5 @@
-﻿using System;
+﻿using System.Collections.Generic;
 using Newtonsoft.Json;
-using System.Collections.Generic;
 
 namespace JustEatDemo.Core.BL
 {
@@ -75,4 +74,3 @@ namespace JustEatDemo.Core.BL
 		}
 	}
 }
-

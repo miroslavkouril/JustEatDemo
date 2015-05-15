@@ -1,7 +1,6 @@
-﻿using System;
-using Android.Views;
-using Android.Content;
+﻿using Android.Content;
 using Android.Graphics;
+using Android.Views;
 
 namespace JustEatDemo
 {
@@ -108,4 +107,3 @@ namespace JustEatDemo
 		}
 	}
 }
-

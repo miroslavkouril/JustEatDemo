@@ -1,6 +1,6 @@
 ﻿using System;
-using NUnit.Framework;
 using JustEatDemo.Core.BL;
+using NUnit.Framework;
 
 namespace JustEatDemo.Core.Tests.BL
 {
@@ -48,4 +48,3 @@ namespace JustEatDemo.Core.Tests.BL
 		}
 	}
 }
-

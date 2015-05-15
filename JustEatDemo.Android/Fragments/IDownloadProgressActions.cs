@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace JustEatDemo
+﻿namespace JustEatDemo
 {
 	public interface IDownloadProgressActions
 	{
@@ -13,4 +11,3 @@ namespace JustEatDemo
 		void DisplayDownloadProblemDialog();
 	}
 }
-

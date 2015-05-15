@@ -1,11 +1,8 @@
-﻿using System;
-using NUnit.Framework;
+﻿using System.Linq;
 using JustEatDemo.Core.BL;
-using JustEatDemo.Core.DAL;
-using JustEatDemo.Core.SAL;
 using JustEatDemo.Core.Tests.DAL;
 using JustEatDemo.Core.Tests.SAL;
-using System.Linq;
+using NUnit.Framework;
 
 namespace JustEatDemo.Core.Tests.BL
 {
@@ -141,4 +138,3 @@ namespace JustEatDemo.Core.Tests.BL
 		}
 	}
 }
-

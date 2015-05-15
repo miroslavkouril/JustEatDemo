@@ -56,4 +56,3 @@ namespace JustEatDemo.Core
 		}
 	}
 }
-

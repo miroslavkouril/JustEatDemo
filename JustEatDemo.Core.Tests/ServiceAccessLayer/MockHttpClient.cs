@@ -1,6 +1,6 @@
 ﻿using System;
-using Moq;
 using System.Net.Http.Headers;
+using Moq;
 
 namespace JustEatDemo.Core.Tests.SAL
 {
@@ -57,4 +57,3 @@ namespace JustEatDemo.Core.Tests.SAL
 		}
 	}
 }
-

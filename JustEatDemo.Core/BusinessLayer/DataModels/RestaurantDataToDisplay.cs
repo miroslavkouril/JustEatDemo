@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace JustEatDemo.Core.BL.DataModels
+﻿namespace JustEatDemo.Core.BL.DataModels
 {
 	public class RestaurantDataToDisplay
 	{
@@ -22,4 +20,3 @@ namespace JustEatDemo.Core.BL.DataModels
 		public string LogoPath  { get; set; }
 	}
 }
-

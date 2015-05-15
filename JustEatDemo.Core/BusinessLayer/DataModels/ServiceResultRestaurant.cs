@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using JustEatDemo.Core.BL.DataModels;
 
 namespace JustEatDemo.Core.BL.DataModels
@@ -15,4 +14,3 @@ namespace JustEatDemo.Core.BL.DataModels
 		public List<ServiceResultLogo> Logo;
 	}
 }
-

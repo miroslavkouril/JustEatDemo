@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace JustEatDemo.Core.BL.DataModels
+﻿namespace JustEatDemo.Core.BL.DataModels
 {
 	public class GPSExactLocation
 	{
@@ -14,4 +12,3 @@ namespace JustEatDemo.Core.BL.DataModels
 		public double Longitude { get; private set; }
 	}
 }
-

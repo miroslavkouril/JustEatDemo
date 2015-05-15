@@ -1,10 +1,8 @@
-﻿using System;
-using JustEatDemo.Core.SAL;
-using Android.Content;
-using Android.Content.PM;
-using Android.Locations;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Collections.Generic;
+using Android.Content;
+using Android.Locations;
+using JustEatDemo.Core.SAL;
 
 namespace JustEatDemo
 {
@@ -61,4 +59,3 @@ namespace JustEatDemo
 		}
 	}
 }
-

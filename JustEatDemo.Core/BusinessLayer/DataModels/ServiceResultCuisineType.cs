@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace JustEatDemo.Core.BL.DataModels
+﻿namespace JustEatDemo.Core.BL.DataModels
 {
 	public class ServiceResultCuisineType
 	{
@@ -8,4 +6,3 @@ namespace JustEatDemo.Core.BL.DataModels
 		public string Name;
 	}
 }
-

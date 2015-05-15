@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Net.Http;
 
 namespace JustEatDemo.Core
 {
@@ -11,4 +10,3 @@ namespace JustEatDemo.Core
 		Byte[] GetByteArrayFrom(string requestUri);
 	}
 }
-

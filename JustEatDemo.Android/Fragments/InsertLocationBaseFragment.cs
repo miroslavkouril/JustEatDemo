@@ -1,18 +1,11 @@
-﻿
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿using System;
 using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Util;
 using Android.Views;
+using Android.Views.Animations;
 using Android.Widget;
 using JustEatDemo.Core.BL;
-using Android.Views.Animations;
 using JustEatDemo.Core.BL.DataModels;
 
 namespace JustEatDemo
@@ -133,4 +126,3 @@ namespace JustEatDemo
 		}
 	}
 }
-

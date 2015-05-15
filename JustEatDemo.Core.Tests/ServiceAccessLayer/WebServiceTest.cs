@@ -1,7 +1,6 @@
 ﻿using System;
-using NUnit.Framework;
 using JustEatDemo.Core.SAL;
-using System.Linq;
+using NUnit.Framework;
 
 namespace JustEatDemo.Core.Tests.SAL
 {
@@ -35,4 +34,3 @@ namespace JustEatDemo.Core.Tests.SAL
 		}
 	}
 }
-

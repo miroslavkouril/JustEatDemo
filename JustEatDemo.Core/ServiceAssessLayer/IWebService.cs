@@ -9,4 +9,3 @@ namespace JustEatDemo.Core.SAL
 		Byte[] DownloadImageFromWeb(string url);
 	}
 }
-

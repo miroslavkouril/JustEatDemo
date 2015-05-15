@@ -1,9 +1,9 @@
 ﻿using System;
-using JustEatDemo.Core.SAL;
-using JustEatDemo.Core.DAL;
-using JustEatDemo.Core.BL.DataModels;
 using System.Collections.Generic;
 using System.Linq;
+using JustEatDemo.Core.BL.DataModels;
+using JustEatDemo.Core.DAL;
+using JustEatDemo.Core.SAL;
 
 namespace JustEatDemo.Core.BL
 {
@@ -73,4 +73,3 @@ namespace JustEatDemo.Core.BL
 		}
 	}
 }
-

@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace JustEatDemo.Core.BL.DataModels
 {
@@ -9,4 +8,3 @@ namespace JustEatDemo.Core.BL.DataModels
 		public List<ServiceResultRestaurant> Restaurants;
 	}
 }
-

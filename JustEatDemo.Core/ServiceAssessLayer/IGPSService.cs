@@ -1,5 +1,4 @@
-﻿using System;
-using JustEatDemo.Core.BL.DataModels;
+﻿using JustEatDemo.Core.BL.DataModels;
 
 namespace JustEatDemo.Core.SAL
 {
@@ -10,4 +9,3 @@ namespace JustEatDemo.Core.SAL
 		string GetPostcodeOfLocation(GPSExactLocation location);
 	}
 }
-

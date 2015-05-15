@@ -1,6 +1,5 @@
-﻿using System;
+﻿using JustEatDemo.Core.BL.DataModels;
 using JustEatDemo.Core.SAL;
-using JustEatDemo.Core.BL.DataModels;
 using Newtonsoft.Json;
 
 namespace JustEatDemo.Core.Tests.SAL
@@ -83,4 +82,3 @@ namespace JustEatDemo.Core.Tests.SAL
 		}
 	}
 }
-

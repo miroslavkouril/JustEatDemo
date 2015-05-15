@@ -8,6 +8,7 @@ I spent approximately 16 hours on the coding test. Here is the list of things wh
  - Better progress animation while GPS is finding my current postcode 
  - Implement GPS functionality completely in Core library  
  - Improve speed of GPS reaction 
+ - More UITests
  - Design of the first app screen - bottom part could be used to display some useful info 
  - Optimalise amount of data which are downloaded from web server, download icons of restaurants in separate thread 
  - Design of items in list of restaurants – now it contains only required data

@@ -1,8 +1,7 @@
-﻿using System.Net.Http;
-using System;
-using Newtonsoft.Json;
+﻿using System;
+using System.Net.Http;
 using JustEatDemo.Core.BL.DataModels;
-using System.Net;
+using Newtonsoft.Json;
 
 namespace JustEatDemo.Core.SAL
 {
@@ -61,4 +60,3 @@ namespace JustEatDemo.Core.SAL
 		}
 	}
 }
-

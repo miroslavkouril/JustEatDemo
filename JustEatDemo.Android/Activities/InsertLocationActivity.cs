@@ -1,5 +1,5 @@
-﻿using Android.OS;
-using Android.App;
+﻿using Android.App;
+using Android.OS;
 
 namespace JustEatDemo
 {
@@ -20,5 +20,3 @@ namespace JustEatDemo
 		}
 	}
 }
-
-

@@ -1,12 +1,11 @@
 ﻿using System;
-using Android.Widget;
-using JustEatDemo.Core.BL.DataModels;
 using System.Collections.Generic;
-using Android.Views;
-using Android.Content;
 using Android.App;
-using Java.IO;
 using Android.Graphics;
+using Android.Views;
+using Android.Widget;
+using Java.IO;
+using JustEatDemo.Core.BL.DataModels;
 
 namespace JustEatDemo
 {
@@ -79,8 +78,5 @@ namespace JustEatDemo
 				return dataToDisplay.Count;
 			}
 		}
-
-
 	}
 }
-

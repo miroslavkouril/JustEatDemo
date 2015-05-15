@@ -1,8 +1,7 @@
-﻿using System;
-using JustEatDemo.Core.DAL;
-using System.IO;
-using Java.IO;
+﻿using System.IO;
 using Android.Content;
+using Java.IO;
+using JustEatDemo.Core.DAL;
 
 namespace JustEatDemo
 {
@@ -45,4 +44,3 @@ namespace JustEatDemo
 		}
 	}
 }
-
