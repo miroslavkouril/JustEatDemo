@@ -15,4 +15,11 @@
 	<string name="dialog_enable_location_message">You need to have you location service active to use this function</string>
 	<string name="dialog_enable_location_positive_text">Settings</string>
 	<string name="dialog_enable_location_negative_text">Cancel</string>
+
+	<string name="list_of_restaurants_show_closed">Show closed</string>
+	<string name="list_of_restaurants_hide_closed">Hide closed</string>
+
+	<string name="no_restaurants_available">There are no restaurants in this area</string>
+	<string name="no_restaurants_opened">No restaurants are open yet</string>
+	<string name="no_restaurants_indicator">closed</string>
 </resources>

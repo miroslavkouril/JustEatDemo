@@ -10,6 +10,7 @@ namespace JustEatDemo.Core.BL.DataModels
 		public double DefaultDisplayRank;
 		public double RatingStars;
 		public int NumberOfRatings;
+		public bool IsOpenNow;
 		public List<ServiceResultCuisineType> CuisineTypes;
 		public List<ServiceResultLogo> Logo;
 	}

@@ -183,38 +183,47 @@ namespace JustEatDemo
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b0009
-			public const int cousine = 2131427337;
+			// aapt resource value: 0x7f0c000a
+			public const int closed_indicator = 2131492874;
 			
-			// aapt resource value: 0x7f0b0003
-			public const int delete_postcode = 2131427331;
+			// aapt resource value: 0x7f0c0009
+			public const int cousine = 2131492873;
 			
-			// aapt resource value: 0x7f0b0005
-			public const int find_takeaways = 2131427333;
+			// aapt resource value: 0x7f0c0003
+			public const int delete_postcode = 2131492867;
 			
-			// aapt resource value: 0x7f0b0001
-			public const int insert_location = 2131427329;
+			// aapt resource value: 0x7f0c0005
+			public const int find_takeaways = 2131492869;
 			
-			// aapt resource value: 0x7f0b0006
-			public const int list = 2131427334;
+			// aapt resource value: 0x7f0c000d
+			public const int hide_closed = 2131492877;
 			
-			// aapt resource value: 0x7f0b0007
-			public const int logo = 2131427335;
+			// aapt resource value: 0x7f0c0001
+			public const int insert_location = 2131492865;
 			
-			// aapt resource value: 0x7f0b0008
-			public const int name = 2131427336;
+			// aapt resource value: 0x7f0c0006
+			public const int list = 2131492870;
 			
-			// aapt resource value: 0x7f0b0004
-			public const int postcode = 2131427332;
+			// aapt resource value: 0x7f0c0007
+			public const int logo = 2131492871;
 			
-			// aapt resource value: 0x7f0b0002
-			public const int postcode_from_gps = 2131427330;
+			// aapt resource value: 0x7f0c0008
+			public const int name = 2131492872;
 			
-			// aapt resource value: 0x7f0b000a
-			public const int rating = 2131427338;
+			// aapt resource value: 0x7f0c0004
+			public const int postcode = 2131492868;
 			
-			// aapt resource value: 0x7f0b0000
-			public const int subtitle = 2131427328;
+			// aapt resource value: 0x7f0c0002
+			public const int postcode_from_gps = 2131492866;
+			
+			// aapt resource value: 0x7f0c000b
+			public const int rating = 2131492875;
+			
+			// aapt resource value: 0x7f0c000c
+			public const int show_closed = 2131492876;
+			
+			// aapt resource value: 0x7f0c0000
+			public const int subtitle = 2131492864;
 			
 			static Id()
 			{
@@ -263,6 +272,22 @@ namespace JustEatDemo
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f0b0000
+			public const int list_of_restaurants = 2131427328;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}
@@ -321,6 +346,21 @@ namespace JustEatDemo
 			
 			// aapt resource value: 0x7f090005
 			public const int insert_location_warning_invalid = 2131296261;
+			
+			// aapt resource value: 0x7f09000d
+			public const int list_of_restaurants_hide_closed = 2131296269;
+			
+			// aapt resource value: 0x7f09000c
+			public const int list_of_restaurants_show_closed = 2131296268;
+			
+			// aapt resource value: 0x7f09000e
+			public const int no_restaurants_available = 2131296270;
+			
+			// aapt resource value: 0x7f090010
+			public const int no_restaurants_indicator = 2131296272;
+			
+			// aapt resource value: 0x7f09000f
+			public const int no_restaurants_opened = 2131296271;
 			
 			static String()
 			{

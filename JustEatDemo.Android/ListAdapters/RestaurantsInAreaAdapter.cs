@@ -64,6 +64,9 @@ namespace JustEatDemo
 				logo.SetImageDrawable(context.Resources.GetDrawable(Resource.Drawable.ic_empty_logo));
 			}
 
+			var closedIndicator = view.FindViewById<TextView>(Resource.Id.closed_indicator);
+			closedIndicator.Visibility = dataToDisplay[position].IsOpen ? ViewStates.Invisible : ViewStates.Visible;
+
 			var rating = view.FindViewById<DisplayRating>(Resource.Id.rating);
 			rating.MaxRating = 6;
 			rating.Rating = (float)dataToDisplay[position].RatingStars;

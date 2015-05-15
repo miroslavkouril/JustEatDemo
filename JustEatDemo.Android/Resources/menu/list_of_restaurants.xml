@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  	<item 
+  		android:id="@+id/show_closed"
+      	android:showAsAction="never"
+      	android:title="@string/list_of_restaurants_show_closed" />
+	<item 
+  		android:id="@+id/hide_closed"
+      	android:showAsAction="never"
+      	android:title="@string/list_of_restaurants_hide_closed" />
+</menu>

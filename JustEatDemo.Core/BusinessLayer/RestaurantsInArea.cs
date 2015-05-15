@@ -32,7 +32,7 @@ namespace JustEatDemo.Core.BL
 
 			foreach (var restaurant in availableRestaurants.Restaurants ?? Enumerable.Empty<ServiceResultRestaurant>())
 			{
-				RestaurantDataToDisplay dataToDisplay = new RestaurantDataToDisplay(restaurant.Id, restaurant.Name, restaurant.DefaultDisplayRank, restaurant.RatingStars, restaurant.NumberOfRatings); 
+				RestaurantDataToDisplay dataToDisplay = new RestaurantDataToDisplay(restaurant.Id, restaurant.Name, restaurant.DefaultDisplayRank, restaurant.RatingStars, restaurant.NumberOfRatings, restaurant.IsOpenNow); 
 				dataToDisplay.LogoPath = DownloadAndSaveRestaurantLogo(restaurant.Id, restaurant.Logo);
 				dataToDisplay.CuisineTypes = GetRestaurantCuisineTypesFormated(restaurant.CuisineTypes);
 

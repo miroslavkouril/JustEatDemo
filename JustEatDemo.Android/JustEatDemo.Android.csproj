@@ -103,6 +103,7 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\ic_star_empty.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\ic_star_full.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\ic_star_half.png" />
+    <AndroidResource Include="Resources\menu\list_of_restaurants.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
@@ -130,5 +131,6 @@
     <Folder Include="Resources\drawable-xhdpi\" />
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
+    <Folder Include="Resources\menu\" />
   </ItemGroup>
 </Project>
